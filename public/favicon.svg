@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141518" />
+      <stop offset="100%" stop-color="#08090b" />
+    </linearGradient>
+  </defs>
+  <!-- Background Badge (Squircle) -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bgGrad)" stroke="#2b2e36" stroke-width="1.5" />
+  
+  <!-- Left Peak (Background - Cima del Redentore) -->
+  <polygon points="4,50 15,22 16.5,50" fill="#e8ecf2" />
+  <polygon points="16.5,50 15,22 29,50" fill="#7a8594" />
+  
+  <!-- Right Peak (Background - Monte Sibilla) -->
+  <polygon points="35,50 49,24 48,50" fill="#dce1e8" />
+  <polygon points="48,50 49,24 60,50" fill="#697280" />
+  
+  <!-- Center Peak (Foreground - Monte Vettore, highest summit) -->
+  <polygon points="11.5,50 32,9 33,50" fill="#ffffff" />
+  <polygon points="33,50 32,9 52.5,50" fill="#afb7c3" />
+  
+  <!-- Exena Red Impact Line -->
+  <rect x="6" y="52.5" width="52" height="2.8" rx="1.4" fill="#e32b2b" />
+</svg>
